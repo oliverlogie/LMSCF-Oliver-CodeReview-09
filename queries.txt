@@ -1,0 +1,11 @@
+1)
+
+select all rows in Database Post Office
+
+SELECT SUM(TABLE_ROWS) 
+    FROM INFORMATION_SCHEMA.TABLES 
+    WHERE TABLE_SCHEMA = 'post_office';
+    SELECT table_name, table_rows
+    FROM INFORMATION_SCHEMA.TABLES
+    WHERE TABLE_SCHEMA = 'post_office';
+
